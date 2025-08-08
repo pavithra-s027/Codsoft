@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">My<span>Portfolio</span></div>
+        <ul class="nav-links">
+            <li><a href="#main">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#abilities">Skills</a></li>
+            <li><a href="#works">Projects</a></li>
+            <li><a href="#cv">Resume</a></li>
+            <li><a href="#reach">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Section -->
+    <section id="main" class="main-section">
+        <div class="intro">
+            <h2>Hi, I'm</h2>
+            <h1>Pavithra.S</h1>
+            <h3><span>Web Developer</span> & Designer</h3>
+            <p>
+                I specialize in building and designing modern, responsive websites and web applications using the latest technologies.
+            </p>
+            <div class="buttons">
+                <button>Contact Me</button>
+                <button>View Work</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-section" class="about-section">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <h4>Creative Web Designer</h4>
+            <p>
+                As a web designer, I blend creativity and technical expertise to craft visually appealing and user-friendly websites. My toolkit includes Figma, Adobe XD, HTML, and CSS, ensuring every design is both beautiful and functional.
+            </p>
+            <a class="design" href="#">Learn More</a>
+        </div>
+        <div class="image">
+            <div class="image-home">
+                <img class="photo" src="./InShot_20250808_133039234.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <div class="skills-list">
+    <div class="skill">
+        <img src="/skills/HTML5_logo_and_wordmark.svg.png" alt="HTML" class="skill-icon" />
+        <h3>HTML</h3>
+        <p>Structuring web content with semantic markup for accessibility and SEO.</p>
+    </div>
+    <div class="skill">
+        <img src="/skills/download.png" alt="CSS" class="skill-icon" />
+        <h3>CSS</h3>
+        <p>Designing layouts, colors, and responsive interfaces for all devices.</p>
+    </div>
+    <div class="skill">
+        <img src="/skills/download.jpeg" alt="JavaScript" class="skill-icon" />
+        <h3>Java</h3>
+        <p>Adding interactivity, animations, and dynamic features to web pages.</p>
+    </div>
+    <div class="skill">
+        <img src="/skills/Python-logo-notext.svg.png" alt="Python" class="skill-icon" />
+        <h3>Python</h3>
+        <p>Developing backend logic, automation scripts, and data-driven solutions.</p>
+    </div>
+    <div class="skill">
+        <img src="/skills/C_Logo.png" alt="Excel" class="skill-icon" />
+        <h3>C</h3>
+        <p>Analyzing data, creating reports, and visualizing information efficiently.</p>
+    </div>
+    <div class="skill">
+        <img src="/skills/download (1).jpeg" alt="SQL" class="skill-icon" />
+        <h3>SQL</h3>
+        <p>Managing and querying relational databases for robust data handling.</p>
+    </div>
+</div>
+
+    <!-- Projects Section -->
+    <section id="works" class="projects-section">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="/project/download (1).jpeg" alt="Calculator App">
+                <h4>Calculator App</h4>
+                <p>Developed a simple calculator using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project-card">
+                <img src="/project/download (2).jpeg" alt="Portfolio Website">
+                <h4>Portfolio Website</h4>
+                <p>Personal website to highlight my skills, experience, and projects.</p>
+            </div>
+            <div class="project-card">
+                <img src="/project/download (3).jpeg" alt="Landing Page">
+                <h4>Landing Page</h4>
+                <p>Designed a responsive landing page for a startup business.</p>
+            </div>
+            <div class="project-card">
+                <img src="/project/download.jpeg" alt="Weather Dashboard">
+                <h4>Weather Dashboard</h4>
+                <p>Created a dashboard to display live weather updates and forecasts.</p>
+            </div>
+            <div class="project-card">
+                <img src="/project/images (1).jpeg" alt="To-Do App">
+                <h4>To-Do App</h4>
+                <p>Built a productivity app for managing daily tasks and reminders.</p>
+            </div>
+            <div class="project-card">
+                <img src="./project/images.jpeg" alt="Blog Platform">
+                <h4>Blog Platform</h4>
+                <p>Developed a blogging platform for sharing articles and insights.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="cv" class="resume-section">
+        <h2>Resume</h2>
+        <p>Download my resume to view a detailed summary of my education, technical skills, work experience, and professional achievements.</p>
+        <a href="/DOC-20250808-WA0029.pdf" class="download-btn">Download Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="reach" class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <div>
+                <h4>Email</h4>
+                <p><a href="mailto:info@example.com">pavithrasaravanan027@gmail.com</a></p>
+            </div>
+            <div>
+                <h4>Phone</h4>
+                <p><a href="#">+91 123045</a></p>
+            </div>
+        </div>
+        <form class="contact-form" action="#" method="post">
+            <label for="fullname">Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+            <label for="useremail">Email:</label>
+            <input type="email" id="useremail" name="useremail" required>
+            <label for="usermessage">Message:</label>
+            <textarea id="usermessage" name="usermessage" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
